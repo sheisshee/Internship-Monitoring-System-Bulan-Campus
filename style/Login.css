@@ -1,0 +1,65 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url("library.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.card-header {
+    display: block;
+    position: inherit;
+    background-position: fixed;
+    background-color: rgb(163, 42, 42);
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+}
+.card{
+    background-color: rgba(195, 173, 173, 0.68);
+}
+h4{
+    font-size: 15px;
+    font-weight: 600;
+}
+h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+.card-body{
+    border-radius: none;
+    height: 400px;
+    align-items: center;
+}
+.bottom{
+    position: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    font-size: small;
+    margin-top: 10px;
+}
+.left{
+    display: flex;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+    margin-left: 10px;
+}
+.right{
+    z-index: 1;
+    margin-left: 60px;
+}
+.btn-success{
+    display: flex;
+    position: relative;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.modal{
+    margin-top: 200px;
+}
+
+

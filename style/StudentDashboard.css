@@ -1,0 +1,228 @@
+/* Importing Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.card-header{
+    background-color: #7b1515;
+    height: 80px;
+    display: fixed;
+}
+.card-header .text{
+    font-size: xx-large;
+    font-weight: 700;
+    text-align: left;
+    text-indent: 23%;
+    color: #fff;
+    padding-top: 15px;
+    display: fixed;
+}
+
+.card-footer{
+    background-color: #7b1515;
+    height: 50px;
+    margin-top: 680px;
+}
+.card-footer .text{
+    font-size: small;
+    font-weight: 700;
+    text-align: left;
+    text-indent: 21%;
+    color: #fff;
+    padding-top: 15px;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-image: url(#);
+    background-color: #585858b6;
+    background-position: center;
+    background-size: cover;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 70px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(126, 14, 14, 0.395);
+    backdrop-filter: blur(17px);
+    --webkit-backdrop-filter: blur(17px);
+    border-right: 1px solid rgba(255, 255, 255, 0.7);
+    transition: width 0.3s ease;
+    border: none;
+}
+
+.sidebar:hover {
+    width: 250px;
+}
+
+.sidebar .logo {
+    color: #000;
+    display: flex;
+    align-items: center;
+    padding: 25px 10px 15px;
+}
+
+.logo img {
+    width: 43px;
+    border-radius: 50%;
+}
+
+.logo h2 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-left: 15px;
+    display: none;
+    color: #fff;
+}
+
+.sidebar:hover .logo h2 {
+    display: block;
+}
+
+.sidebar .links {
+    list-style: none;
+    margin-top: 20px;
+    overflow-y: auto;
+    scrollbar-width: none;
+    height: calc(100% - 140px);
+}
+
+.sidebar .links::-webkit-scrollbar {
+    display: none;
+}
+
+.links li {
+    display: flex;
+    border-radius: 4px;
+    align-items: center;
+}
+
+.links li:hover {
+    cursor: pointer;
+    background: #fff;
+}
+
+.links h4 {
+    color: #222;
+    font-weight: 500;
+    display: none;
+    margin-bottom: 10px;
+}
+
+.sidebar:hover .links h4 {
+    display: block;
+}
+
+.links hr {
+    margin: 10px 8px;
+    border: 1px solid #4c4c4c;
+}
+
+.sidebar:hover .links hr {
+    border-color: transparent;
+}
+
+.links li span {
+    padding: 12px 10px;
+}
+
+.links li a {
+    padding: 10px;
+    color: #000;
+    display: none;
+    font-weight: 500;
+    white-space: nowrap;
+    text-decoration: none;
+}
+
+.sidebar:hover .links li a {
+    display: block;
+}
+
+.links .logout-link {
+    margin-top: 20px;
+}
+.sidebar .user {
+    color: #000;
+    display: flex;
+    align-items: center;
+    padding: 25px 10px 15px;
+}
+
+.user img {
+    width: 43px;
+    border-radius: 50%;
+}
+
+.user h2 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 15px;
+    display: none;
+    color: #fff;
+}
+.container{
+    display: block;
+    position: inherit;
+    margin-left: 50px;
+    background-color: #ffffff;
+}
+.container{
+    display: flex;
+    position: inherit;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    min-width: 30px;
+    max-width: 1000vh;
+    margin-left: 80px;
+    margin-right: 10px;
+    text-align: block;
+    padding: 10px 10px 10px 10px;
+    background-color: #ffffff75;
+}
+h3{
+    background-color: #a20000;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    margin-bottom: 15px;
+    padding: 5px 5px 5px 5px;
+}
+.list{
+    display: flex;
+    position: inherit;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    min-width: 30px;
+    max-width: 1000vh;
+    margin-left: 80px;
+    margin-right: 10px;
+    text-align: block;
+    padding: 10px 10px 10px 10px;
+    background-color: #ffffff75;
+}
+h3{
+    background-color: #a20000;
+    text-align: center;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    margin-bottom: 15px;
+    padding: 5px 5px 5px 5px;
+}
+
+

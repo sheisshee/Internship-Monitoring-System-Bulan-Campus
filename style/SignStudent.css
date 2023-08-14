@@ -1,0 +1,21 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-image: url("library.png");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.signup-form{
+    background-color: rgba(182, 61, 61, 0.596);
+    display: block;
+    position: relative;
+    border-radius: 5px;
+}
+p{
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
