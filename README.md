@@ -1,2 +1,2 @@
-# Internship-Monitoring-System---Bulan-Campus
+# Internship-Monitoring-System-Bulan-Campus
  School Capstone kineme
